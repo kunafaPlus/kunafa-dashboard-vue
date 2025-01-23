@@ -3,7 +3,7 @@
 [![Vue](https://img.shields.io/badge/Vue-3.3-4FC08D?logo=vuedotjs)](https://vuejs.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?logo=vite)](https://vitejs.dev/)
 
-A feature-rich Vue.js 3 dashboard template with multi-language support and full RTL/LTR bidirectional layout capabilities.
+Kunafa Dashboard Vue is an open-source, Vue.js-based admin dashboard that supports multi-language functionality with seamless RTL (Right-to-Left) and LTR (Left-to-Right) layouts. This project is designed to be highly customizable and easy to use for developers building modern web applications
 
 ![Dashboard Preview](public/screenshots/Home-LTR.png)
 
@@ -133,12 +133,14 @@ Here are planned enhancements and fixes for the Kunafa Dashboard Vue project:
 - Convert all CSS files to **SASS** for better maintainability and customization.
 - Fix images and certain HTML properties in **DataTables** components.
 - Implement proper **pagination** for server-side DataTables.
+- Enhance Mobile Responsive and breackpoints .
 - Integrate the **vue-advanced-chat** package for real-time chat functionality.  
   ([vue-advanced-chat](https://www.npmjs.com/package/vue-advanced-chat))
 - Add a **Kanban dashboard** for task management using the following open-source library:  
   ([kanban-task-management](https://github.com/UnTalPeluca/kanban-task-management)).
 
 ## Dependencies Overview
+
 <details>
 
 <summary> summary about Dependencies </summary>
