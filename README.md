@@ -60,8 +60,8 @@ Kunafa Dashboard Vue is an open-source, Vue.js-based admin dashboard that suppor
 
 ## 📸 Screenshots
 
-| Light Mode (LTR) | Dark Mode (RTL) |
-|-------------------|------------------|
+|  LTR| RTL |
+|-----------|------|
 | ![Home LTR](public/screenshots/Home-LTR.png) | ![Home RTL](public/screenshots/Home-RTL.png) |
 
 <div style="max-height: 800px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; width: 600px;">
@@ -133,7 +133,8 @@ Here are planned enhancements and fixes for the Kunafa Dashboard Vue project:
 - Convert all CSS files to **SASS** for better maintainability and customization.
 - Fix images and certain HTML properties in **DataTables** components.
 - Implement proper **pagination** for server-side DataTables.
-- Enhance Mobile Responsive and breackpoints .
+- Enhance Mobile Responsive and breakpoints .
+- Complete Dark Mode .
 - Integrate the **vue-advanced-chat** package for real-time chat functionality.  
   ([vue-advanced-chat](https://www.npmjs.com/package/vue-advanced-chat))
 - Add a **Kanban dashboard** for task management using the following open-source library:  
