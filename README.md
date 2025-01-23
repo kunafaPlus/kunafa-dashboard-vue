@@ -235,5 +235,5 @@ Kunafa Dashboard Vue is licensed under the [MIT License](https://opensource.org/
 
 ## Community
 
-Join Community in [Telegram Group](https://t.me/+5_Xh_V1p0HkyNDc0).
+Join to [Kunafa Community in Telegram](https://t.me/+5_Xh_V1p0HkyNDc0).
 
