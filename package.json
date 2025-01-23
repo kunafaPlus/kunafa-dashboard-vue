@@ -1,5 +1,5 @@
 {
-  "name": "tvv-admin",
+  "name": "Kunafa dashboard vue",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -7,6 +7,24 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "keywords": [
+    "vue",
+    "dashboard",
+    "admin",
+    "admin dashboard",
+    "vuejs admin dashboard",
+    "rtl admin dashboard",
+    "multilanguage admin dashboard",
+    "vite",
+    "vue-i18n",
+    "tailwindcss",
+    "pinia",
+    "charts",
+    "datatables",
+    "rtl",
+    "ltr",
+    "vue3"
+  ],
   "dependencies": {
     "@intlify/unplugin-vue-i18n": "^0.13.0",
     "@vueform/vueform": "^1.9.2",
@@ -19,8 +37,6 @@
     "path": "^0.12.7",
     "pinia": "^2.1.7",
     "postcss-rtlcss": "^5.1.0",
-    "primeicons": "^6.0.1",
-    "primevue": "^3.51.0",
     "vue": "^3.2.20",
     "vue-chart-3": "^3.1.8",
     "vue-flatpickr-component": "^11.0.3",
