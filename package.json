@@ -1,0 +1,40 @@
+{
+  "name": "tvv-admin",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@intlify/unplugin-vue-i18n": "^0.13.0",
+    "@vueform/vueform": "^1.9.2",
+    "@vueuse/core": "^10.7.0",
+    "axios": "^1.6.8",
+    "chart.js": "^3.9.1",
+    "chartjs-adapter-moment": "^1.0.1",
+    "flatpickr": "^4.6.13",
+    "moment": "^2.29.4",
+    "path": "^0.12.7",
+    "pinia": "^2.1.7",
+    "postcss-rtlcss": "^5.1.0",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.51.0",
+    "vue": "^3.2.20",
+    "vue-chart-3": "^3.1.8",
+    "vue-flatpickr-component": "^11.0.3",
+    "vue-i18n": "^9.11.0",
+    "vue-router": "^4.2.5",
+    "vue3-easy-data-table": "^1.5.47"
+  },
+  "devDependencies": {
+    "@iconify/vue": "^4.1.1",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "@vue/compiler-sfc": "^3.2.20",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.17",
+    "vite": "^5.0.6"
+  }
+}

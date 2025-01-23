@@ -1,0 +1,2 @@
+here components that related to pages (like dashboard pages partails ) ... etc .
+every folder will named like it's page name, for ex: dashboard page will create views/partials/dashboard folder for it's partails .

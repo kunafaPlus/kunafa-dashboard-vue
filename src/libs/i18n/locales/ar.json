@@ -1,0 +1,66 @@
+{
+    "greetings": {
+        "good_morning": "صباح الخير ",
+        "good_evening": "مساء الخير ",
+        "free_palestine": "الحرية لفلسطين ",
+        "support_palestine": "نحن ندعم حرية وإستقلال فلسطين",
+        "no_to_the_policy_of_genocide": " لا للإحتلال ، لا لسياسة الإبادة والقمع العنصري"
+    },
+    "languages": {
+        "ar": "العربية",
+        "en": "الإنجليزية"
+    },
+    "messages": {
+        "default_msg": "تم بنجاح",
+        "success_add": "تم اضافة البيانات بنجاح",
+        "success_update": "تم تحديث البيانات بنجاح",
+        "success_delete": "تم حذف البيانات بنجاح",
+        "errors": {
+            "no_records_found": "لم يتم العثور على البيانات المطلوبة "
+        }
+    },
+    "forms": {
+        "titles": {
+            "sign up": "التسجيل",
+            "login": "تسجيل الدخول",
+            "basic_object_form": "نموذج أوبجكت الأساسي",
+            "advance_object_form": "نموذج أوبجكت المتقدم"
+        },
+        "buttons": {
+            "add": "إضافة ",
+            "create": "إنشاء ",
+            "new": "جديد ",
+            "confirm": "تأكيد ",
+            "cancel": "إلغاء",
+            "reset": " تفريغ الحقول",
+            "delete": "حذف",
+            "close": "إغلاق",
+            "edit": "تعديل",
+            "save": "حفظ",
+            "update": "تحديث",
+            "save changes": "حفظ التغييرات"
+        },
+        "placeholder": {
+            "name": "الإسم "
+        },
+        "labels": {
+            "name": "الإسم "
+        },
+        "inputs": {
+            "search": "بحث"
+        }
+    },
+    "pagination": {
+        "Showing": "عرض",
+        "Show": "عرض",
+        "from": "من",
+        "to": "إلى",
+        "of": "من",
+        "entries": "سجلات",
+        "the_entries": "السجلات"
+    },
+
+    "breadcrumbs": {
+        "home": "الرئيسية"
+    }
+}

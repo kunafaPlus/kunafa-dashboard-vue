@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=fallback');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+@import 'primevue/resources/primevue.min.css';
+@import 'vue3-easy-data-table/dist/style.css';
+@import 'primeicons/primeicons.css';
+@import 'additional-styles/custom-variables.css';
+@import 'overrides/iconify-custom.css';
+@import 'overrides/data-table-custom-style.css';
+/*@import 'additional-styles/ltvv-styles.css';*/
