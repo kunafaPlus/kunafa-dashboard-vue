@@ -206,6 +206,24 @@ We welcome contributions! Please follow these steps:
 5. Open a Pull Request
 6. please follow standard in previous work .
 
+## Contributors ✨
+
+Thanks to these wonderful people for contributing to this project! 💖
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/omaralalwi">
+        <img src="https://avatars.githubusercontent.com/u/25439498?v=4" width="50px;" alt="Omar AlAlwi"/>
+        <br />
+        <sub><b>Omar AlAlwi</b></sub>
+      </a>
+      <br />
+      🏆 Creator
+    </td>
+
+  </tr>
+</table>
 
 ## License
 
