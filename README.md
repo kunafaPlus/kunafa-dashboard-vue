@@ -163,6 +163,8 @@ Here are planned enhancements and fixes for the Kunafa Dashboard Vue project:
 - Implement proper **pagination** for server-side DataTables.
 - Enhance Mobile Responsive and breakpoints .
 - Complete Dark Mode .
+- Login and signup pages .
+- profile page .
 - Integrate the **vue-advanced-chat** package for real-time chat functionality.  
   ([vue-advanced-chat](https://www.npmjs.com/package/vue-advanced-chat))
 - Add a **Kanban dashboard** for task management using the following open-source library:  
