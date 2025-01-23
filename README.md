@@ -207,6 +207,8 @@ We welcome contributions! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 6. please follow standard in previous work .
+7. add screenshot for new component .
+8. add component (with it's sub components) in components section in documentation file .
 
 ## Contributors ✨
 
