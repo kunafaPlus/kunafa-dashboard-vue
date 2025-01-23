@@ -16,17 +16,39 @@ demo link will coming soon .
 - 🌐 Internationalization (i18n) with Vue I18n
 - 🔌 Ready Integrated with API endpoints via [DummyJson](https://dummyjson.com/)
 - ↔️ Bidirectional layout support (RTL/LTR)
-- 📊 8+ Chart types powered by Chart.js
-- 📋 Advanced Data Tables with sorting/filtering
+- 📊 8+ Chart types powered by Chart.js :
+- 📋 Advanced Data Tables with sorting/filtering .
 - 🖋️ Dynamic Forms with multiple layouts:
+- 🎨 Modern UI built with Tailwind CSS .
+- 🗃️ State management via Pinia .
+- ⚡ Vite-powered development .
+- 🧩 Component-based architecture .
+
+---
+
+## Components
+
+- 📊 **Charts** :
+  - bar-charts .
+  - bubble-charts .
+  - doughnut-charts .
+  - line-charts .
+  - pie-charts .
+  - polar-area-charts.
+  - reader-charts .
+  - scatter-charts .
+- 📋 **Data Tables** .
+  - basic-datatables .
+  - searchable-datatables .
+  - serverside-datatables .
+  - sortable-datatables .
+- 🖋️ **Forms**:
   - Inline forms
   - Tabbed forms
   - Stepped forms
   - Object-based forms
-- 🎨 Modern UI built with Tailwind CSS
-- 🗃️ State management via Pinia
-- ⚡ Vite-powered development
-- 🧩 Component-based architecture
+
+---
 
 ## 🛠️ Technologies
 
@@ -59,6 +81,36 @@ demo link will coming soon .
 - Moment.js (Date handling)
 -  uses data from [Chart.js](https://www.chartjs.org/) .
 - user icons from [Iconify](https://iconify.design/) .
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js v20.x or higher
+- npm, pnpm, or yarn
+
+### Installation
+1. Clone the repository:
+```bash
+git clone git@github.com:kunafaPlus/kunafa-dashboard-vue.git
+cd kunafa-dashboard-vue
+```
+
+2. Install dependencies:
+```bash
+npm install   # or pnpm install / yarn install
+```
+
+3. Start development server:
+```bash
+npm run dev
+```
+
+4. Build for production:
+```bash
+npm run build
+```
 
 ---
 
@@ -99,34 +151,6 @@ Datatables
 </div>
 
 ---
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js v20.x or higher
-- npm, pnpm, or yarn
-
-### Installation
-1. Clone the repository:
-```bash
-git clone git@github.com:kunafaPlus/kunafa-dashboard-vue.git
-cd kunafa-dashboard-vue
-```
-
-2. Install dependencies:
-```bash
-npm install   # or pnpm install / yarn install
-```
-
-3. Start development server:
-```bash
-npm run dev
-```
-
-4. Build for production:
-```bash
-npm run build
-```
 
 ## TODO
 
