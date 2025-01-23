@@ -170,34 +170,34 @@ Here are planned enhancements and fixes for the Kunafa Dashboard Vue project:
 - Add a **Kanban dashboard** for task management using the following open-source library:  
   ([kanban-task-management](https://github.com/UnTalPeluca/kanban-task-management)).
 
+---
+
 ## Dependencies Overview
 
-<details>
+📦 Key Dependencies Summary
 
-<summary> summary about Dependencies </summary>
+- **[tailwindcss](https://tailwindcss.com/)**: Utility-first CSS framework for rapidly building custom designs
+- **[vite](https://vitejs.dev/)**: Next-gen frontend tooling for modern web projects
+- **[@intlify/unplugin-vue-i18n](https://github.com/intlify/bundle-tools/tree/main/packages/unplugin-vue-i18n)**: Plugin for integrating [vue-i18n](https://vue-i18n.intlify.dev/) with Vite
+- **[@vueform/vueform](https://vueform.com/)**: Advanced form builder for Vue.js
+- **[@vueuse/core](https://vueuse.org/)**: Essential Vue composition utilities
+- **[axios](https://axios-http.com/)**: Promise-based HTTP client
+- **[chart.js](https://www.chartjs.org/)**: Flexible charting library
+- **[chartjs-adapter-moment](https://github.com/chartjs/chartjs-adapter-moment)**: Moment.js adapter for Chart.js
+- **[flatpickr](https://flatpickr.js.org/)**: Lightweight date picker
+- **[moment](https://momentjs.com/)**: Date manipulation library
+- **[pinia](https://pinia.vuejs.org/)**: Vue state management
+- **[postcss-rtlcss](https://github.com/elchininet/postcss-rtlcss)**: LTR→RTL styles converter
+- **[vue](https://vuejs.org/)**: Progressive JavaScript framework
+- **[vue-chart-3](https://vue-chart-3.netlify.app/)**: Vue wrapper for Chart.js
+- **[vue-flatpickr-component](https://github.com/ankurk91/vue-flatpickr-component)**: Vue date picker component
+- **[vue-i18n](https://vue-i18n.intlify.dev/)**: Internationalization plugin
+- **[vue-router](https://router.vuejs.org/)**: Official Vue routing
+- **[vue3-easy-data-table](https://github.com/HC200ok/vue3-easy-data-table)**: Vue data table component
+- **[@iconify/vue](https://docs.iconify.design/icon-components/vue/)**: Icon component library
+- **[@vitejs/plugin-vue](https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue)**: Vite Vue integration
 
-- **@intlify/unplugin-vue-i18n**: Plugin for integrating vue-i18n with Vite.
-- **@vueform/vueform**: Advanced form builder for Vue.js.
-- **@vueuse/core**: Collection of essential Vue.js composition utilities.
-- **axios**: Promise-based HTTP client for making API requests.
-- **chart.js**: Flexible and powerful charting library.
-- **chartjs-adapter-moment**: Adapter for integrating Moment.js with Chart.js.
-- **flatpickr**: Lightweight and powerful date picker.
-- **moment**: JavaScript date library for parsing, validating, manipulating, and formatting dates.
-- **pinia**: Intuitive and type-safe state management solution for Vue.js.
-- **postcss-rtlcss**: PostCSS plugin for converting LTR styles to RTL.
-- **vue**: Core Vue.js library.
-- **vue-chart-3**: Vue.js wrapper for Chart.js.
-- **vue-flatpickr-component**: Vue component for Flatpickr.
-- **vue-i18n**: Internationalization plugin for Vue.js.
-- **vue-router**: Routing library for Vue.js.
-- **vue3-easy-data-table**: Lightweight and customizable data table component for Vue.js.
-- **@iconify/vue**: Icon component for Vue.js.
-- **@vitejs/plugin-vue**: Vite plugin for Vue.js support.
-- **tailwindcss**: Utility-first CSS framework.
-- **vite**: Frontend tooling for modern web projects.
-
-</details>
+----
 
 ## 🤝 Contributing
 We welcome contributions! Please follow these steps:
