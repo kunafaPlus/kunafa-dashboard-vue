@@ -2,10 +2,10 @@
 
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
-
 @import 'tailwindcss/utilities';
+
 @import 'vue3-easy-data-table/dist/style.css';
-@import 'additional-styles/custom-variables.css';
-@import 'overrides/iconify-custom.css';
-@import 'overrides/data-table-custom-style.css';
-@import 'additional-styles/kunafa.css';
+@import 'additional-styles/custom-variables.scss';
+@import 'overrides/iconify-custom.scss';
+@import 'overrides/data-table-custom-style.scss';
+@import 'additional-styles/kunafa.scss';
