@@ -9,8 +9,18 @@
           </li>
         </EditMenu>
       </header>
-      <h2 v-if="title" class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-2">{{ title }}</h2>
-      <div v-if="subtitle" class="text-xs font-semibold text-slate-400 dark:text-slate-500 uppercase mb-1">{{ subtitle }}</div>
+      <h2
+        v-if="title"
+        class="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-2"
+      >
+        {{ title }}
+      </h2>
+      <div
+        v-if="subtitle"
+        class="text-xs font-semibold text-slate-400 dark:text-slate-500 uppercase mb-1"
+      >
+        {{ subtitle }}
+      </div>
       <!-- User-defined content slot -->
       <slot></slot>
     </div>
@@ -18,10 +28,10 @@
 </template>
 
 <script>
-import EditMenu from '../../layoutes/components/DropdownEditMenu.vue'
+import EditMenu from "../../layouts/components/DropdownEditMenu.vue";
 
 export default {
-  name: 'DynamicWidget',
+  name: "DynamicWidget",
   props: {
     widgetClass: String,
     options: Array,
@@ -29,11 +39,9 @@ export default {
     subtitle: String,
   },
   components: {
-    EditMenu
-  }
-}
+    EditMenu,
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

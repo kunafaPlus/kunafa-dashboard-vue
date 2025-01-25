@@ -1,22 +1,20 @@
 <template>
   <div :dir="langDirection">
     <DefaultLayout>
-
       <template #content>
-          <router-view />
+        <router-view />
       </template>
-
     </DefaultLayout>
   </div>
 </template>
 
 <script>
-import DefaultLayout from './layoutes/default.vue'
-import SelectedLanguage from '@/services/LanguageService.js';
+import DefaultLayout from "./layouts/default.vue";
+import SelectedLanguage from "@/services/LanguageService.js";
 
 export default {
   components: {
-    DefaultLayout
+    DefaultLayout,
   },
 
   setup() {

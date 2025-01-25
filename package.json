@@ -47,6 +47,7 @@
     "path": "^0.12.7",
     "pinia": "^2.1.7",
     "postcss-rtlcss": "^5.1.0",
+    "trix": "^2.1.12",
     "vue": "^3.2.20",
     "vue-chart-3": "^3.1.8",
     "vue-flatpickr-component": "^11.0.3",
