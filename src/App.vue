@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import DefaultLayout from './layoutes/default.vue'
+import DefaultLayout from './layouts/default.vue'
 import SelectedLanguage from '@/services/LanguageService.js';
 
 export default {
