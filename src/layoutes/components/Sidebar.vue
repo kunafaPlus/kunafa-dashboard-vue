@@ -16,10 +16,7 @@
         </button>
         <!-- Logo and system name -->
         <router-link class="flex items-center" to="/">
-          <!-- Small logo icon , TODO: replace with logo (dynamically) -->
-          <Icon icon="emojione:up-arrow" class="" />
-          <!-- System name -->
-          <span class="text-xl font-semibold text-primary mx-2">Kunafa Vue</span>
+          <KunafaLogo />
         </router-link>
       </div>
 
@@ -99,12 +96,14 @@ import { useRouter } from 'vue-router' // Import useRouter
 import SidebarLinkGroup from '../../layoutes/components/SidebarLinkGroup.vue'
 import { useI18n } from "vue-i18n";
 import SelectedLanguage from '@/services/LanguageService.js';
+import KunafaLogo from './KunafaLogo.vue';
 
 export default {
   name: 'Sidebar',
   props: ['sidebarOpen'],
   components: {
     SidebarLinkGroup,
+    KunafaLogo,
   },
   setup(props, { emit }) {
     const routes = ref([]);
