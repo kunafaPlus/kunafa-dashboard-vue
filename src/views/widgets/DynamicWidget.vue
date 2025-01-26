@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import EditMenu from '../../layoutes/components/DropdownEditMenu.vue'
+import EditMenu from '../../layouts/components/DropdownEditMenu.vue'
 
 export default {
   name: 'DynamicWidget',

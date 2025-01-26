@@ -6,7 +6,7 @@ import Vueform from '@vueform/vueform'
 import vueformConfig from './../vueform.config'
 import i18n from './libs/i18n/index.js'
 import iconifyPlugin from './plugins/iconifyPlugin.js'
-import '../css/style.css'
+import '../css/style.scss'
 
 const app = createApp(App)
 app.use(Vueform, vueformConfig)
