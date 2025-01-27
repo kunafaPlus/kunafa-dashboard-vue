@@ -227,6 +227,26 @@ Thanks to these wonderful people for contributing to this project! 💖
       <br />
       🏆 Creator
     </td>
+   <!-- Contributors -->
+    <td align="center">
+      <a href="https://github.com/LondonBoy619">
+        <img src="https://avatars.githubusercontent.com/u/86839029?v=4" width="50px;" alt="Mohammed Jamal"/>
+        <br />
+        <sub><b>Mohammed Jamal</b></sub>
+      </a>
+      <br />
+      🏆 Contributer
+    </td>
+   <!-- Contributors -->
+    <td align="center">
+      <a href="https://github.com/ZainbMohammed">
+        <img src="https://avatars.githubusercontent.com/u/129354366?v=4" width="50px;" alt="Zainab Mohamed"/>
+        <br />
+        <sub><b>Zainab Mohamed</b></sub>
+      </a>
+      <br />
+      🏆 Contributer
+    </td>
 
   </tr>
 </table>
