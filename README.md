@@ -201,6 +201,13 @@ Here are planned enhancements and fixes for the Kunafa Dashboard Vue project:
 
 ----
 
+## Project Structure Overview
+To view the project structure in detail, you can refer to the following file:
+
+[View Project Structure](./Project-Structure.md)
+
+----
+
 ## 🤝 Contributing
 We welcome contributions! Please follow these steps:
 1. Fork the project
