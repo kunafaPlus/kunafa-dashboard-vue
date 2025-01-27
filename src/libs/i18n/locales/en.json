@@ -1,65 +1,66 @@
 {
-    "greetings": {
-        "good_morning": "Good Morning",
-        "good_evening": "Good Evening",
-        "free_palestine": "Free Palestine",
-        "support_palestine": "We Supporting the freedom and independence of Palestine.",
-        "no_to_the_policy_of_genocide": "No to the policy of genocide and racist oppression"
-    },
-    "languages": {
-        "ar": "Arabic",
-        "en": "English"
-    },
-    "messages": {
-        "default_msg": "Success",
-        "success_add": "Data added successfully",
-        "success_update": "Data updated successfully",
-        "success_delete": "Data deleted successfully",
-        "errors": {
-            "no_records_found": "No records found"
-        }
-    },
-    "forms": {
-        "titles": {
-            "sign up": "Sign Up",
-            "login": "Login",
-            "basic_object_form": "Basic Object Form",
-            "advance_object_form": "Advance Object Form"
-        },
-        "buttons": {
-            "add": "Add",
-            "create": "Create",
-            "new": "New",
-            "confirm": "Confirm",
-            "cancel": "Cancel",
-            "reset": "Reset Fields",
-            "delete": "Delete",
-            "close": "Close",
-            "edit": "Edit",
-            "save": "Save",
-            "update": "Update",
-            "save changes": "Save Changes"
-        },
-        "placeholder": {
-            "name": "Name"
-        },
-        "labels": {
-            "name": "Name"
-        },
-        "inputs": {
-            "search": "Search"
-        }
-    },
-    "pagination": {
-        "Showing": "Showing",
-        "Show": "Show",
-        "from": "from",
-        "to": "to",
-        "of": "of",
-        "entries": "entries",
-        "the_entries": "the entries"
-    },
-    "breadcrumbs": {
-        "home": "Home"
+  "greetings": {
+    "good_morning": "Good Morning",
+    "good_evening": "Good Evening",
+    "free_palestine": "Free Palestine",
+    "support_palestine": "We support the freedom and independence of Palestine.",
+    "no_to_the_policy_of_genocide": "No to the policy of genocide and racist oppression."
+  },
+  "languages": {
+    "ar": "Arabic",
+    "en": "English",
+    "fr": "French"
+  },
+  "messages": {
+    "default_msg": "Success",
+    "success_add": "Data added successfully",
+    "success_update": "Data updated successfully",
+    "success_delete": "Data deleted successfully",
+    "errors": {
+      "no_records_found": "No records found"
     }
+  },
+  "forms": {
+    "titles": {
+      "sign up": "Sign Up",
+      "login": "Login",
+      "basic_object_form": "Basic Object Form",
+      "advance_object_form": "Advanced Object Form"
+    },
+    "buttons": {
+      "add": "Add",
+      "create": "Create",
+      "new": "New",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "reset": "Reset Fields",
+      "delete": "Delete",
+      "close": "Close",
+      "edit": "Edit",
+      "save": "Save",
+      "update": "Update",
+      "save changes": "Save Changes"
+    },
+    "placeholder": {
+      "name": "Name"
+    },
+    "labels": {
+      "name": "Name"
+    },
+    "inputs": {
+      "search": "Search"
+    }
+  },
+  "pagination": {
+    "Showing": "Showing",
+    "Show": "Show",
+    "from": "from",
+    "to": "to",
+    "of": "of",
+    "entries": "entries",
+    "the_entries": "the entries"
+  },
+  "breadcrumbs": {
+    "home": "Home"
+  }
 }

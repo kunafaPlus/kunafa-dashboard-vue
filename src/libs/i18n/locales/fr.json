@@ -1,0 +1,66 @@
+{
+  "greetings": {
+    "good_morning": "Bonjour",
+    "good_evening": "Bonsoir",
+    "free_palestine": "Libérez la Palestine",
+    "support_palestine": "Nous soutenons la liberté et l'indépendance de la Palestine.",
+    "no_to_the_policy_of_genocide": "Non à la politique de génocide et d'oppression raciste."
+  },
+  "languages": {
+    "ar": "Arabe",
+    "en": "Anglais",
+    "fr": "Français"
+  },
+  "messages": {
+    "default_msg": "Succès",
+    "success_add": "Données ajoutées avec succès",
+    "success_update": "Données mises à jour avec succès",
+    "success_delete": "Données supprimées avec succès",
+    "errors": {
+      "no_records_found": "Aucun enregistrement trouvé"
+    }
+  },
+  "forms": {
+    "titles": {
+      "sign up": "S'inscrire",
+      "login": "Connexion",
+      "basic_object_form": "Formulaire d'objet de base",
+      "advance_object_form": "Formulaire d'objet avancé"
+    },
+    "buttons": {
+      "add": "Ajouter",
+      "create": "Créer",
+      "new": "Nouveau",
+      "confirm": "Confirmer",
+      "cancel": "Annuler",
+      "reset": "Réinitialiser les champs",
+      "delete": "Supprimer",
+      "close": "Fermer",
+      "edit": "Modifier",
+      "save": "Enregistrer",
+      "update": "Mettre à jour",
+      "save changes": "Enregistrer les modifications"
+    },
+    "placeholder": {
+      "name": "Nom"
+    },
+    "labels": {
+      "name": "Nom"
+    },
+    "inputs": {
+      "search": "Rechercher"
+    }
+  },
+  "pagination": {
+    "Showing": "Affichage",
+    "Show": "Afficher",
+    "from": "de",
+    "to": "à",
+    "of": "sur",
+    "entries": "entrées",
+    "the_entries": "les entrées"
+  },
+  "breadcrumbs": {
+    "home": "Accueil"
+  }
+}

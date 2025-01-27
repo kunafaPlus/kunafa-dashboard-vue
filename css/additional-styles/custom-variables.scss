@@ -1,0 +1,106 @@
+$primary-color: #1BB0E1;
+$secondary-color: #FBC432;
+$light-color: #ffffff;
+$dark-color: #110f0f;
+$brown-color: #59380A;
+$limon-color: #84cc16;
+
+@mixin button-styles($color) {
+  color: #fff;
+  background-color: $color;
+  border: 1px solid $color;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $color;
+  }
+}
+
+@mixin background-styles($color) {
+  background-color: $color;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $color;
+  }
+}
+
+.border-primary {
+  border-color: $primary-color;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.bg-primary {
+  @include background-styles($primary-color);
+}
+
+.btn-primary {
+  @include button-styles($primary-color);
+}
+
+.border-secondary {
+  border-color: $secondary-color;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+.bg-secondary {
+  @include background-styles($secondary-color);
+}
+
+.btn-secondary {
+  @include button-styles($secondary-color);
+}
+
+.border-light {
+  border-color: $light-color;
+}
+
+.text-light {
+  color: $light-color;
+}
+
+.bg-light {
+  @include background-styles($light-color);
+}
+
+.btn-light {
+  @include button-styles($light-color);
+}
+
+.border-brown {
+  border-color: $brown-color;
+}
+
+.text-brown {
+  color: $brown-color;
+}
+
+.bg-brown {
+  @include background-styles($brown-color);
+}
+
+.btn-brown {
+  @include button-styles($brown-color);
+}
+
+.border-limon {
+  border-color: $limon-color;
+}
+
+.text-limon {
+  color: $limon-color;
+}
+
+.bg-limon {
+  @include background-styles($limon-color);
+}
+
+.btn-limon {
+  @include button-styles($limon-color);
+}

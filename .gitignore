@@ -1,0 +1,68 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+.pnpm-store/
+dist/
+.temp/
+.cache/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local development files
+.DS_Store
+*.swp
+*.swo
+*.swn
+*.swm
+*.swl
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vite-specific files
+.vite/
+*.local
+
+# Build output
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Debug files
+debug/
+*.log
+
+# Local development files
+.history/
+*.local
+
+# Testing
+coverage/
+.nyc_output/
+
+# Optional
+*.zip
+*.tar.gz
+*.rar

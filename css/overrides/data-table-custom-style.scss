@@ -1,0 +1,30 @@
+// Variables
+$table-header-bg-color: #1BB0E1;
+$table-header-text-color: #ffffff;
+$table-row-bg-color: #f5f5f5;
+$table-row-text-color: #333333;
+$table-even-row-text-color: #333333;
+$table-even-row-bg-color: #eeeeee;
+$table-row-hover-bg-color: #e0e0e0;
+$table-border-color: #1BB0E1;
+$table-row-border-color: #1BB0E1;
+
+.custom-easy-datatable {
+    --easy-table-border: 1px solid $table-border-color;
+    --easy-table-row-border: 1px solid $table-row-border-color;
+
+    --easy-table-header-font-size: 14px;
+    --easy-table-header-height: 50px;
+    --easy-table-header-font-color: $table-header-text-color;
+    --easy-table-header-background-color: $table-header-bg-color;
+
+    --easy-table-header-item-padding: 10px 15px;
+
+    --easy-table-body-even-row-font-color: $table-even-row-text-color;
+    --easy-table-body-even-row-background-color: $table-even-row-bg-color;
+}
+ .dt-thumbnail-wrapper {
+    padding: 4px;
+    width: 50px;
+    height: 50px;
+}
