@@ -180,7 +180,7 @@ import { useRouter } from "vue-router"; // Import useRouter
 import SidebarLinkGroup from "../../layouts/components/SidebarLinkGroup.vue";
 import { useI18n } from "vue-i18n";
 import SelectedLanguage from "@/services/LanguageService.js";
-import KunafaLogo from "@/components/KunafaLogo.vue";
+import KunafaLogo from "./KunafaLogo.vue";
 
 export default {
   name: "Sidebar",

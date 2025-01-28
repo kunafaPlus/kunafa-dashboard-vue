@@ -49,6 +49,7 @@ dist/
 dist/
 dist-ssr/
 *.tsbuildinfo
+package-lock.json
 
 # Debug files
 debug/
