@@ -6,7 +6,11 @@ import Vueform from '@vueform/vueform'
 import vueformConfig from './../vueform.config'
 import i18n from './libs/i18n/index.js'
 import iconifyPlugin from './plugins/iconifyPlugin.js'
+<<<<<<< HEAD
 import '../css/style.scss'
+=======
+import '../css/style.css'
+>>>>>>> d90b5ef (- Fix dark theme)
 
 const app = createApp(App)
 app.use(Vueform, vueformConfig)

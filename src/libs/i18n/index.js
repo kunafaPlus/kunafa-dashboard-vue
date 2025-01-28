@@ -1,5 +1,6 @@
 import { createI18n } from "vue-i18n";
 
+<<<<<<< HEAD
 function loadLocaleMessages() {
   // Using Vite "import.meta.glob" to load all JSON files in the "locales" directory.
   const locales = import.meta.glob("./locales/*.json", { eager: true });
@@ -35,3 +36,23 @@ const i18n = createI18n({
 });
 
 export default i18n;
+=======
+import en from './locales/en.json';
+import ar from './locales/ar.json';
+
+const i18n = createI18n({
+    legacy: false,
+    globalInjection: true,
+    locale: 'en',
+    fallbackLocale: 'en',
+    availableLocales: ['en', 'ar'],
+    // messages: loadLocaleMessages, // if dynamically
+    messages: {
+        en,
+        ar
+    },
+    // messages
+});
+
+export default i18n
+>>>>>>> d90b5ef (- Fix dark theme)

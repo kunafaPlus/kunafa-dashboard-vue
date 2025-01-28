@@ -18,7 +18,11 @@
 </template>
 
 <script>
+<<<<<<< HEAD
 import EditMenu from '../../layouts/components/DropdownEditMenu.vue'
+=======
+import EditMenu from '../../layoutes/components/DropdownEditMenu.vue'
+>>>>>>> d90b5ef (- Fix dark theme)
 
 export default {
   name: 'DynamicWidget',

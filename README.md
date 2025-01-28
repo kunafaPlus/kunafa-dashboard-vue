@@ -55,33 +55,61 @@ Kunafa Dashboard Vue is an open-source, Vue.js-based admin dashboard that suppor
 ## 🛠️ Technologies
 
 **Core Framework**
+<<<<<<< HEAD
+=======
+
+>>>>>>> d90b5ef (- Fix dark theme)
 - Vue.js 3 (Composition API)
 - Vue Router 4
 - Pinia (State Management)
 
 **API Integration**
+<<<<<<< HEAD
+=======
+
+>>>>>>> d90b5ef (- Fix dark theme)
 - [DummyJSON](https://dummyjson.com/) (Mock REST API)
 - Axios (HTTP Client)
 
 **Styling & UI**
+<<<<<<< HEAD
+=======
+
+>>>>>>> d90b5ef (- Fix dark theme)
 - Tailwind CSS 3
 - PostCSS RTL
 - Iconify (Icon Library)
 
 **Data Visualization**
+<<<<<<< HEAD
+=======
+
+>>>>>>> d90b5ef (- Fix dark theme)
 - Chart.js 3
 - vue-chart-3
 
 **Forms & Tables**
+<<<<<<< HEAD
+=======
+
+>>>>>>> d90b5ef (- Fix dark theme)
 - Vueform Builder
 - vue3-easy-data-table
 
 **Utilities**
+<<<<<<< HEAD
+=======
+
+>>>>>>> d90b5ef (- Fix dark theme)
 - Axios (HTTP Client)
 - Vue I18n (Internationalization)
 - VueUse (Composition Utilities)
 - Moment.js (Date handling)
+<<<<<<< HEAD
 -  uses data from [Chart.js](https://www.chartjs.org/) .
+=======
+- uses data from [Chart.js](https://www.chartjs.org/) .
+>>>>>>> d90b5ef (- Fix dark theme)
 - user icons from [Iconify](https://iconify.design/) .
 
 ---
@@ -89,27 +117,49 @@ Kunafa Dashboard Vue is an open-source, Vue.js-based admin dashboard that suppor
 ## 🚀 Quick Start
 
 ### Prerequisites
+<<<<<<< HEAD
+=======
+
+>>>>>>> d90b5ef (- Fix dark theme)
 - Node.js v20.x or higher
 - npm, pnpm, or yarn
 
 ### Installation
+<<<<<<< HEAD
 1. Clone the repository:
+=======
+
+1. Clone the repository:
+
+>>>>>>> d90b5ef (- Fix dark theme)
 ```bash
 git clone git@github.com:kunafaPlus/kunafa-dashboard-vue.git
 cd kunafa-dashboard-vue
 ```
 
 2. Install dependencies:
+<<<<<<< HEAD
+=======
+
+>>>>>>> d90b5ef (- Fix dark theme)
 ```bash
 npm install   # or pnpm install / yarn install
 ```
 
 3. Start development server:
+<<<<<<< HEAD
+=======
+
+>>>>>>> d90b5ef (- Fix dark theme)
 ```bash
 npm run dev
 ```
 
 4. Build for production:
+<<<<<<< HEAD
+=======
+
+>>>>>>> d90b5ef (- Fix dark theme)
 ```bash
 npm run build
 ```
@@ -126,6 +176,10 @@ npm run build
 
 Forms
 ---
+<<<<<<< HEAD
+=======
+
+>>>>>>> d90b5ef (- Fix dark theme)
  <img src="public/screenshots/inline-forms.png" alt="Inline Forms" width="100%">
   <img src="public/screenshots/tabs-forms.png" alt="Tabs Forms" width="100%">
   <img src="public/screenshots/steps-forms.png" alt="Steps Forms" width="100%">
@@ -145,6 +199,10 @@ Charts
 
 Datatables
 ---
+<<<<<<< HEAD
+=======
+
+>>>>>>> d90b5ef (- Fix dark theme)
   <img src="public/screenshots/basic-datatables.png" alt="Basic Datatables" width="100%">
   <img src="public/screenshots/searchable-datatables.png" alt="Searchable Datatables" width="100%">
   <img src="public/screenshots/serverside-datatables.png" alt="Server-side Datatables" width="100%">
@@ -164,13 +222,21 @@ Here are planned enhancements and fixes for the Kunafa Dashboard Vue project:
 - Fix images and certain HTML properties in **DataTables** components.
 - Implement proper **pagination** for server-side DataTables.
 - Enhance Mobile Responsive and breakpoints .
+<<<<<<< HEAD
 - Complete Dark Mode .
+=======
+- Complete Dark Mode . ✅
+>>>>>>> d90b5ef (- Fix dark theme)
 - Login and signup pages .
 - profile page .
 - Integrate the **vue-advanced-chat** package for real-time chat functionality.  
   ([vue-advanced-chat](https://www.npmjs.com/package/vue-advanced-chat))
 - Add a **Kanban dashboard** for task management using the following open-source library:  
   ([kanban-task-management](https://github.com/UnTalPeluca/kanban-task-management)).
+<<<<<<< HEAD
+=======
+- Fix topbar border-radius. ✅
+>>>>>>> d90b5ef (- Fix dark theme)
 
 ---
 
@@ -202,7 +268,13 @@ Here are planned enhancements and fixes for the Kunafa Dashboard Vue project:
 ----
 
 ## 🤝 Contributing
+<<<<<<< HEAD
 We welcome contributions! Please follow these steps:
+=======
+
+We welcome contributions! Please follow these steps:
+
+>>>>>>> d90b5ef (- Fix dark theme)
 1. Fork the project
 2. Create your feature branch (`git checkout -b component/AmazingComponent`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
@@ -238,4 +310,7 @@ Kunafa Dashboard Vue is licensed under the [MIT License](https://opensource.org/
 ## Community
 
 Join to [Kunafa Community in Telegram](https://t.me/+5_Xh_V1p0HkyNDc0).
+<<<<<<< HEAD
 
+=======
+>>>>>>> d90b5ef (- Fix dark theme)

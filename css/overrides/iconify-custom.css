@@ -1,0 +1,51 @@
+/* custom style file for iconify icons */
+
+/* icon-styles.css */
+
+/* Apply primary styles to all Iconify icons */
+.iconify {
+    color: var(--primary-color);
+    flex-shrink: 0;
+    /* apply md size for all icons by primary */
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+/* Custom classes for different icon sizes */
+.xxsm-icon {
+    height: 0.5rem;
+    width: 0.5rem;
+}
+.xsm-icon {
+    height: 0.75rem;
+    width: 0.75rem;
+}
+.sm-icon {
+    height: 1rem;
+    width: 1rem;
+}
+.md-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.lg-icon {
+    height: 2rem;
+    width: 2rem;
+}
+.xlg-icon {
+    height: 3rem;
+    width: 3rem;
+}
+/* Corrected class name */
+.xlg2-icon {
+    height: 4rem;
+    width: 4rem;
+}
+.xlg3-icon {
+      height: 6rem;
+      width: 6rem;
+  }
+.xlg4-icon {
+      height: 8rem;
+      width: 8rem;
+  }
