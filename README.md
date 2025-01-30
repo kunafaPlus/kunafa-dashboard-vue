@@ -9,7 +9,7 @@ Kunafa Dashboard Vue is an open-source, Vue.js-based admin dashboard that suppor
 
 ---
 
-## [Demo Link Here](https://demo.kunafa-vue.blueoocean.com)
+## [Demo Link Here](https://dev.demo-vue.kunafaplus.org)
 
 ---
 
