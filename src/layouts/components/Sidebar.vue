@@ -32,7 +32,7 @@
         <!-- Logo and system name -->
         <router-link class="flex items-center" to="/">
           <!-- Small logo icon , TODO: replace with logo (dynamically) -->
-          <Icon icon="emojione:up-arrow" class="" />
+          <img src="../../../public/icon.svg" width="50" height="auto">
           <!-- System name -->
           <span class="text-xl font-semibold text-primary mx-2"
             >Kunafa Vue</span
