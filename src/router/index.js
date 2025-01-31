@@ -193,7 +193,16 @@ const router = createRouter({
           }
         },
       ]
-    }
+    },
+    {
+      name: '404',
+      path: '/404',
+      component: () => import('@/views/pages/errors/404.vue'),
+      meta: {
+        label: '404',
+        icon: 'bx:bx-error'
+      }
+    },
   ]
 })
 
