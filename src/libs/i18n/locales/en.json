@@ -62,5 +62,16 @@
   },
   "breadcrumbs": {
     "home": "Home"
+  },
+
+  "pages": {
+    "errors" : {
+      "404": {
+        "title": "Page not found",
+        "message": "The page you are looking for might have been removed had its name changed or is temporarily unavailable.",
+        "go_to_home_btn": "Go to Home",
+        "open_issue_github_btn": "Open Issue in Github"
+      }
+    }
   }
 }
