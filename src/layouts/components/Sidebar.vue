@@ -3,29 +3,17 @@
     <!-- Sidebar backdrop (mobile only) -->
     <div
       class="fixed inset-0 bg-slate-900 bg-opacity-30 z-40 lg:hidden lg:z-auto rounded-2xl transition-opacity duration-200"
-      :class="sidebarOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'"
-      aria-hidden="true"
-    ></div>
+      :class="sidebarOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'" aria-hidden="true"></div>
 
     <!-- Sidebar -->
-    <div
-      id="sidebar"
-      ref="sidebar"
-      class="flex flex-col absolute z-40 ltr:left-0 rtl:right-0 top-0 lg:static ltr:lg:left-auto rtl:lg:right-auto lg:top-auto lg:translate-x-0 h-screen overflow-y-scroll lg:overflow-y-auto no-scrollbar w-64 lg:w-20 lg:sidebar-expanded:!w-64 2xl:!w-64 shrink-0 bg-slate-800 p-4 transition-all duration-200 ease-in-out"
-      :class="sidebarOpen ? 'translate-x-0' : translateClass"
-    >
+    <div id="sidebar" ref="sidebar"
+      class="flex flex-col absolute z-40 ltr:left-0 rtl:right-0 top-0 lg:static ltr:lg:left-auto rtl:lg:right-auto lg:top-auto lg:translate-x-0 h-screen overflow-y-scroll lg:overflow-y-auto no-scrollbar w-64 lg:w-20 lg:sidebar-expanded:!w-64 2xl:!w-64 shrink-0 bg-white dark:bg-slate-800 p-4 transition-all duration-200 ease-in-out"
+      :class="sidebarOpen ? 'translate-x-0' : translateClass">
       <!-- Sidebar header -->
-      <div
-        class="flex justify-between items-center mb-10 ltr:pr-3 rtl:pl-3 sm:px-2"
-      >
+      <div class="flex justify-between items-center mb-10 ltr:pr-3 rtl:pl-3 sm:px-2">
         <!-- Close button -->
-        <button
-          ref="trigger"
-          class="lg:hidden text-slate-500 hover:text-slate-400"
-          @click.stop="$emit('close-sidebar')"
-          aria-controls="sidebar"
-          :aria-expanded="sidebarOpen"
-        >
+        <button ref="trigger" class="lg:hidden text-slate-500 hover:text-slate-400" @click.stop="$emit('close-sidebar')"
+          aria-controls="sidebar" :aria-expanded="sidebarOpen">
           <span class="sr-only">Close sidebar</span>
           <Icon icon="mdi-light:speedometer" />
         </button>
@@ -34,53 +22,36 @@
           <!-- Small logo icon , TODO: replace with logo (dynamically) -->
           <Icon icon="emojione:up-arrow" class="" />
           <!-- System name -->
-          <span class="text-xl font-semibold text-primary mx-2"
-            >Kunafa Vue</span
-          >
+          <span class="text-xl font-semibold text-primary mx-2">Kunafa Vue</span>
         </router-link>
       </div>
 
       <!-- Links -->
       <div class="space-y-8">
         <ul class="mt-3">
-          <SidebarLinkGroup
-            v-slot="parentLink"
-            v-for="route in routes"
-            :key="route.meta.label"
-            class="rounded-2xl"
-          >
+          <SidebarLinkGroup v-slot="parentLink" v-for="route in routes" :key="route.meta.label" class="rounded-2xl">
             <!-- childrens sidebar menu item -->
             <template v-if="route.children">
-              <a
-                class="block text-slate-200 truncate px-2 transition duration-150"
-                :class="
-                  currentRoute &&
-                  currentRoute.fullPath.includes(route.meta.label)
-                    ? 'hover:text-slate-200'
-                    : 'hover:text-white'
-                "
-                href="#0"
-                @click.prevent="
+              <a class="block text-slate-200 truncate px-2 transition duration-150" :class="currentRoute &&
+                currentRoute.fullPath.includes(route.meta.label)
+                ? 'hover:text-slate-400'
+                : 'hover:text-slate-400'
+                " href="#0" @click.prevent="
                   sidebarExpanded
                     ? parentLink.handleClick()
                     : (sidebarExpanded = true)
-                "
-              >
+                  ">
                 <div class="flex items-center justify-between">
                   <div class="flex items-center">
                     <Icon :icon="route.meta.icon" />
                     <span
-                      class="text-sm font-medium ltr:ml-3 rtl:mr-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200"
-                      >{{ route.meta.label }}</span
-                    >
+                      class="text-sm font-medium ltr:ml-3 rtl:mr-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200 text-slate-800 dark:text-white hover:text-slate-400 hover:dark:text-slate-400">{{
+                        route.meta.label }}</span>
                   </div>
                   <!-- Icon -->
                   <div class="flex shrink-0 ltr:ml-2 rtl:mr-2">
-                    <svg
-                      class="w-3 h-3 shrink-0 ltr:ml-1 rtl:mr-1 fill-current text-slate-400"
-                      :class="parentLink.expanded && 'rotate-180'"
-                      viewBox="0 0 12 12"
-                    >
+                    <svg class="w-3 h-3 shrink-0 ltr:ml-1 rtl:mr-1 fill-current text-slate-400"
+                      :class="parentLink.expanded && 'rotate-180'" viewBox="0 0 12 12">
                       <path d="M5.9 11.4L.5 6l1.4-1.4 4 4 4-4L11.3 6z" />
                     </svg>
                   </div>
@@ -88,32 +59,20 @@
               </a>
               <!-- childrens sub menu-->
               <div class="lg:hidden lg:sidebar-expanded:block 2xl:block">
-                <ul
-                  class="ltr:pl-5 rtl:pr-5 mt-1"
-                  :class="!parentLink.expanded && 'hidden'"
-                >
+                <ul class="ltr:pl-5 rtl:pr-5 mt-1" :class="!parentLink.expanded && 'hidden'">
                   <template v-for="child in route.children" :key="child.name">
-                    <router-link
-                      :to="child.path"
-                      custom
-                      v-slot="{ href, navigate, isExactActive }"
-                    >
+                    <router-link :to="child.path" custom v-slot="{ href, navigate, isExactActive }">
                       <li class="mb-1 last:mb-0">
-                        <a
-                          class="flex items-center block transition duration-150 truncate"
-                          :class="
-                            isExactActive
-                              ? 'text-indigo-500'
-                              : 'text-slate-400 hover:text-slate-200'
-                          "
-                          :href="href"
-                          @click="navigate"
-                        >
+                        <a class="flex items-center block transition duration-150 truncate" :class="isExactActive
+                          ? 'isActiveColor'
+                          : 'text-slate-400 hover:text-slate-200'
+                          " :href="href" @click="navigate">
                           <Icon :icon="child.meta.icon" class="sm-icon" />
                           <span
-                            class="text-sm font-medium ltr:ml-2 rtl:mr-2 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200"
-                            >{{ child.meta.label }}</span
-                          >
+                            class="text-sm font-medium ltr:ml-2 rtl:mr-2 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">{{
+                              child.meta.label
+                            }}
+                          </span>
                         </a>
                       </li>
                     </router-link>
@@ -123,31 +82,17 @@
             </template>
             <!-- no childrens sidebar menu item -->
             <template v-else>
-              <router-link
-                :to="route.path"
-                custom
-                v-slot="{ href, navigate, isExactActive }"
-              >
-                <li
-                  class="py-2 rounded-sm mb-0.5 px-2 last:mb-0"
-                  :class="isExactActive && 'bg-slate-900'"
-                >
-                  <a
-                    class="block text-slate-200 truncate transition duration-150"
-                    :class="
-                      isExactActive
-                        ? 'hover:text-slate-200'
-                        : 'hover:text-white'
-                    "
-                    :href="href"
-                    @click="navigate"
-                  >
+              <router-link :to="route.path" custom v-slot="{ href, navigate, isExactActive }">
+                <li class="py-2 rounded-sm mb-0.5 px-2 last:mb-0" :class="isExactActive">
+                  <a class="block truncate transition duration-150" :class="isExactActive
+                    ? 'isActiveColor'
+                    : 'hover:text-slate-400'
+                    " :href="href" @click="navigate">
                     <div class="flex items-center">
                       <Icon :icon="route.meta.icon" />
                       <span
-                        class="text-sm font-medium ltr:ml-3 rtl:mr-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200"
-                        >{{ route.meta.label }}</span
-                      >
+                        class="text-sm font-medium ltr:ml-3 rtl:mr-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200   hover:text-slate-400 hover:dark:text-slate-400">{{
+                          route.meta.label }}</span>
                     </div>
                   </a>
                 </li>
@@ -162,14 +107,8 @@
         <div class="px-3 py-2">
           <button @click.prevent="sidebarExpanded = !sidebarExpanded">
             <span class="sr-only">Expand / collapse sidebar</span>
-            <svg
-              class="w-6 h-6 fill-current sidebar-expanded:rotate-180"
-              viewBox="0 0 24 24"
-            >
-              <path
-                class="text-slate-400"
-                d="M19.586 11l-5-5L16 4.586 23.414 12 16 19.414 14.586 18l5-5H7v-2z"
-              />
+            <svg class="w-6 h-6 fill-current sidebar-expanded:rotate-180" viewBox="0 0 24 24">
+              <path class="text-slate-400" d="M19.586 11l-5-5L16 4.586 23.414 12 16 19.414 14.586 18l5-5H7v-2z" />
               <path class="text-slate-600" d="M3 23H1V1h2z" />
             </svg>
           </button>
@@ -265,3 +204,8 @@ export default {
   },
 };
 </script>
+<style>
+.isActiveColor {
+  color: var(text-primary);
+}
+</style>
