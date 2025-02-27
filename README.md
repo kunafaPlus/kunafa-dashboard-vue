@@ -9,7 +9,41 @@ Kunafa Dashboard Vue is an open-source, Vue.js-based admin dashboard that suppor
 
 ---
 
-## [Demo Link Here](https://demo.kunafa-vue.blueoocean.com)
+## [Demo Link Here](https://dev.demo-vue.kunafaplus.org)
+
+---
+
+Here’s your updated documentation section with the mobile app and a new contribution invitation:
+
+---
+
+## 🚀 Kunafa Available Projects
+
+Kunafa Project is a versatile open-source dashboard available in multiple technologies, catering to different development preferences. Explore the versions below and choose the one that best fits your tech stack!
+
+| Project                                                                                           | Technology
+|---------------------------------------------------------------------------------------------------|-----------------------------------------------------|
+| 📱 [**Kunafa Mobile App**](https://github.com/kunafaPlus/kunafa-mobile-app)                       | Kunafa Mobile App (Coming Soon)                     | 🔜 |
+| 🌿 [**Kunafa Dashboard Vue.js**](https://github.com/kunafaPlus/kunafa-dashboard-vue)              | Vue 3 + Vite + Pinia + Tailwind CSS (✅ v1 released) |
+| ⚛️ [**Kunafa Dashboard React**](https://github.com/kunafaPlus/kunafa-dashboard-react)             | React + Vite +  Tailwind CSS (Coming Soon)          | 🔜 |
+| ⚛️ [**Kunafa Dashboard Angular**](https://github.com/kunafaPlus/kunafa-dashboard-angular)         | Angular + Vite +  Tailwind CSS (Under Development)  | 🔜 |
+| 🌐 [**Kunafa Dashboard & HTML &Tailwind CSS**](https://github.com/kunafaPlus/kunafa-dashboard-html) | Static HTML + Tailwind CSS (Under Development))     | 🔜 |
+| ⚛️ [**Kunafa Dashboard laravel**](https://github.com/kunafaPlus/kunafa-dashboard-laravel)         | Laravel Full Stack Dasbhoard (Under Development)    | 🔜 |
+| ⚛️ [**Kunafa Dashboard ASP**](https://github.com/kunafaPlus/kunafa-dashboard-asp)                 | ASP Full Stack Dasbhoard (Under Development)        | 🔜 |
+| ⚛️ [**Kunafa Dashboard express**](https://github.com/kunafaPlus/kunafa-dashboard-express)         | express Full Stack Dasbhoard (Under Development)    | 🔜 |
+| ⚛️ [**Kunafa Dashboard Django**](https://github.com/kunafaPlus/kunafa-dashboard-django)           | Django Full Stack Dasbhoard (Under Development)     | 🔜 |
+| ⚛️ [**Kunafa Dashboard GO**](https://github.com/kunafaPlus/kunafa-dashboard-go)                   | GO Full Stack Dasbhoard (Under Development)         | 🔜 |
+| ⚛️ [**Kunafa Dashboard ruby**](https://github.com/kunafaPlus/kunafa-dashboard-ruby)               | Ruby Full Stack Dasbhoard (Under Development)       | 🔜 |
+
+## 🚧 This Project is Under Development
+
+We’re actively building Kunafa, and we’d love your help! Join our community, contribute to the project, and share your ideas.
+
+💬 **Join Our Developer Telegram Group:**
+
+[![Telegram](https://img.shields.io/badge/Telegram-Join%20Group-blue?style=for-the-badge&logo=telegram)](https://t.me/+5_Xh_V1p0HkyNDc0)
+
+Let's build something awesome together! 🚀🔥
 
 ---
 
@@ -55,33 +89,39 @@ Kunafa Dashboard Vue is an open-source, Vue.js-based admin dashboard that suppor
 ## 🛠️ Technologies
 
 **Core Framework**
+
 - Vue.js 3 (Composition API)
 - Vue Router 4
 - Pinia (State Management)
 
 **API Integration**
+
 - [DummyJSON](https://dummyjson.com/) (Mock REST API)
 - Axios (HTTP Client)
 
 **Styling & UI**
+
 - Tailwind CSS 3
 - PostCSS RTL
 - Iconify (Icon Library)
 
 **Data Visualization**
+
 - Chart.js 3
 - vue-chart-3
 
 **Forms & Tables**
+
 - Vueform Builder
 - vue3-easy-data-table
 
 **Utilities**
+
 - Axios (HTTP Client)
 - Vue I18n (Internationalization)
 - VueUse (Composition Utilities)
 - Moment.js (Date handling)
--  uses data from [Chart.js](https://www.chartjs.org/) .
+- uses data from [Chart.js](https://www.chartjs.org/) .
 - user icons from [Iconify](https://iconify.design/) .
 
 ---
@@ -89,27 +129,33 @@ Kunafa Dashboard Vue is an open-source, Vue.js-based admin dashboard that suppor
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - Node.js v20.x or higher
 - npm, pnpm, or yarn
 
 ### Installation
+
 1. Clone the repository:
+
 ```bash
 git clone git@github.com:kunafaPlus/kunafa-dashboard-vue.git
 cd kunafa-dashboard-vue
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install   # or pnpm install / yarn install
 ```
 
 3. Start development server:
+
 ```bash
 npm run dev
 ```
 
 4. Build for production:
+
 ```bash
 npm run build
 ```
@@ -126,6 +172,7 @@ npm run build
 
 Forms
 ---
+
  <img src="public/screenshots/inline-forms.png" alt="Inline Forms" width="100%">
   <img src="public/screenshots/tabs-forms.png" alt="Tabs Forms" width="100%">
   <img src="public/screenshots/steps-forms.png" alt="Steps Forms" width="100%">
@@ -145,6 +192,7 @@ Charts
 
 Datatables
 ---
+
   <img src="public/screenshots/basic-datatables.png" alt="Basic Datatables" width="100%">
   <img src="public/screenshots/searchable-datatables.png" alt="Searchable Datatables" width="100%">
   <img src="public/screenshots/serverside-datatables.png" alt="Server-side Datatables" width="100%">
@@ -202,7 +250,9 @@ Here are planned enhancements and fixes for the Kunafa Dashboard Vue project:
 ----
 
 ## 🤝 Contributing
+
 We welcome contributions! Please follow these steps:
+
 1. Fork the project
 2. Create your feature branch (`git checkout -b component/AmazingComponent`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
@@ -258,4 +308,3 @@ Kunafa Dashboard Vue is licensed under the [MIT License](https://opensource.org/
 ## Community
 
 Join to [Kunafa Community in Telegram](https://t.me/+5_Xh_V1p0HkyNDc0).
-
